@@ -13,3 +13,6 @@ para retornar um texto com a consulta podemos usar:
 SELECT UPPER(' pessoa colaboradora ' || nome || ' de CPF ' || cpf || ' possui o seguinte endereço: '
             || endereco) AS texto
             FROM Colaboradores;
+
+Essa query retorna uma coluna texto com a busca concatenada no formato que pedimos e com o Texto em maiusculo,
+podemos usar o texto em minusculo com a função LOWER ou não usar função de string;
